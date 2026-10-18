@@ -8,7 +8,7 @@
     min-height: 100svh;
 
     font-family: Arial, sans-serif;
-    background-color: black;
+    background-color: #F0F4F8;
 
     display: flex;
     justify-content: center;
@@ -22,6 +22,10 @@ form{
     box-shadow: 0 0 20px color: green;
     width: 390px;
     height: 1136px;
+}
+
+a{
+ text-decoration: none;
 }
 
  /* Cabeçalho para ficar alinhado um ao lado do outro*/
@@ -173,8 +177,6 @@ form{
     border: 2px solid #006DB6;
     border-radius: 40px;
 
-    padding: 14px 18px;
-    font-size: 17px;
     font-weight: bold;
     white-space: nowrap;
     cursor: pointer;
@@ -195,6 +197,7 @@ form{
     .icone-mapa {
         width: 48px;
         height: 48px;
+        background-color: white;
         min-width: 48px;
         font-size: 25px;
     }
