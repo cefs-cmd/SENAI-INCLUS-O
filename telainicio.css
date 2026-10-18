@@ -1,4 +1,4 @@
-           /* mudando a tela principal */
+    /* mudando a tela principal para responsivo  */
    body {
     margin: 0;
     padding: 0;
@@ -50,13 +50,13 @@ a{
         letter-spacing: -1px;
     }
 
-    /* Botões à direita */
+    /* Botões alinhados a direita */
     .botoes-acessibilidade {
         display: flex;
         align-items: center;
         gap: 14px;
     }
-
+ /* Botões alinhados centralizados e com seus backgrounds em volta*/
     .botao-icone {
         width: 37px;
         height: 37px;
@@ -85,25 +85,25 @@ a{
     padding: 28px 32px 18px;
     border-radius: 0 0 24px 24px;
 }
-
+/* Botões alinhados a direita */
 .boas-vindas p {
     font-size: 14px;
     margin: 1px 0 4px;
     color: #E2E8F0;
 }
-
+/* Mudança de cor e posição do texto */
 .boas-vindas h1 {
     font-size: 30px;
     margin: 0 0 4px;
     color: white;
 }
-
+/* Mudança da posição do texto */
 .boas-vindas strong {
     font-size: 16px;
     margin-left: 3px;
 }
 
-/* Área abaixo do cabeçalho */
+/* Área de rotas */
 .conteudo-home {
     padding: 20px 24px;
 }
@@ -126,7 +126,7 @@ a{
     overflow: hidden;
 }
 
-/* Ícone do mapa */
+/* Ícone do mapa ao lado esquerdo */
 .icone-mapa {
     width: 58px;
     height: 58px;
@@ -143,14 +143,7 @@ a{
     font-size: 30px;
 }
 
-/* Texto das rotas */
-.informacoes-rotas {
-    position: relative;
-    z-index: 1;
-    flex: 1;
-    min-width: 0;
-}
-
+/* textos da rota centralizada ao lado da outra */
 .informacoes-rotas h2 {
     color: #173e5e;
     font-size: 28px;
@@ -182,7 +175,7 @@ a{
     cursor: pointer;
 }
 
-/* Ilustração decorativa à direita */
+/* Centralização dos demais grupos de boas vindas e cartão de rotas */
 
     .boas-vindas {
         padding-left: 22px;
@@ -228,7 +221,7 @@ a{
     margin: 0 0 12px;
 }
 
-/* Cartão de informações acadêmicas */
+/* Cartão de opções do app */
 .calendario {
     display: flex;
     align-items: center;
@@ -244,7 +237,7 @@ a{
     border-radius: 12px;
 }
 
-/* Botão com o ícone */
+/* Botão dos ícones alinhados e customizados  */
 .icone-calendario {
 
     display: flex;
@@ -260,18 +253,18 @@ a{
     cursor: pointer;
 }
 
-/* Textos à direita do ícone */
+/* Textos à direita do ícone*/
 .info-calendario {
     display: flex;
     flex-direction: column;
     gap: 3px;
 }
-
+/* Textos com cor*/
 .info-calendario strong {
     color: white;
     font-size: 20px;
 }
-
+/* Textos à direita/ cor*/
 .info-calendario p {
     color: #d0e2f8;
     font-size: 12px;
@@ -291,7 +284,7 @@ a{
     }
 
     
-/* Área inferior da tela */
+/* Área de pedir ajuda */
 .rodape-home {
     width: 100%;
     margin-top: 10px;
@@ -327,12 +320,12 @@ a{
     cursor: pointer;
 }
 
-/* Ícone de telefone */
+/* Ícone de telefone tamanho */
 .botao-pedir-ajuda i {
     font-size: 46px;
 }
 
-/* Barra branca de navegação */
+/* Barra de navegação do app */
 .menu-inferior {
     display: grid;
     grid-template-columns: 1fr 1.8fr 1fr;
@@ -346,7 +339,7 @@ a{
     background-color: white;
 }
 
-/* Cada item da navegação */
+/* alinhamento dos ícones de navageção */
 .item-menu {
     display: flex;
     flex-direction: column;
@@ -361,17 +354,17 @@ a{
     font-size: 12px;
 }
 
-/* Ícones da navegação */
+/* tamanho dos Ícones de navegação  */
 .item-menu i {
     font-size: 21px;
 }
 
-/* Item selecionado */
+/* Item selecionado cor */
 .item-menu.ativo {
     color: #0062c4;
 }
 
-/* Evita que o texto central quebre de forma estranha */
+/* Evita que o texto central quebre de forma estranha (aqui foi chat) tava dando erro */
 .item-menu:nth-child(2) span {
     white-space: nowrap;
     font-size: 11px;
