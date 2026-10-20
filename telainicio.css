@@ -335,6 +335,7 @@ a{
     min-height: 74px;
     padding: 8px 4px;
     box-sizing: border-box;
+    margin-top: -8px;
 
     background-color: white;
 }
